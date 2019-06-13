@@ -1,3 +1,7 @@
+#flex_second {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
 li {
     display: flex;
     flex-direction: column;
@@ -11,6 +15,10 @@ li {
 #cookie {
     display: flex;
     flex-direction: column;
+}
+
+#color {
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 500px) {
