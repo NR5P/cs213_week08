@@ -1,43 +1,68 @@
 #flex_first {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
 }
 
 #flex_second {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 li {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #hair {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #cookie {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 #color {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
-@media screen and (max-width: 500px) {
+/* START CSS GRID-FIRST */
 
+@media screen and (max-width: 500px) {
+  #grid_first {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media screen and (min-width: 501px) {
+  #grid_first {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #grid_first {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* END CSS GRID-FIRST */
+
+@media screen and (max-width: 500px) {
 }
 
 @media screen and (max-width: 1000px) {
-
 }
 
 @media screen and (max-width: 1300px) {
-
 }
