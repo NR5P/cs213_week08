@@ -36,7 +36,7 @@ li {
     grid-gap: 1rem;
 }
 
-.white_rounded {
+#grid_second .white_rounded {
     min-height: 100px;
 }
 
@@ -84,7 +84,7 @@ li {
   }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1001px) {
   #grid_first {
     display: grid;
     grid-gap: 1rem;
